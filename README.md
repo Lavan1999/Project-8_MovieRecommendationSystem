@@ -1,4 +1,6 @@
 # Project Title: Movie Recommended System
+![Screenshot (276)](https://github.com/Lavan1999/Project-8_MovieReccommendationSystem/assets/152668558/452f451b-cc51-4730-ac6f-7de364ba4bc8)
+![Screenshot (277)](https://github.com/Lavan1999/Project-8_MovieReccommendationSystem/assets/152668558/8519fdbd-1047-453c-9855-6cb706f96575)
 
 ## Objective:
 The objective of this project is to develop a recommendation system that suggests movies similar to a user's input movie, based on various features such as genres, keywords, cast, and crew.
