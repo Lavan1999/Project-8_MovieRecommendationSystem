@@ -5,6 +5,7 @@ The objective of this project is to develop a recommendation system that suggest
 ## Workflow:
 
 - Data Collection:
+
  Gather movie datasets from reliable sources such as IMDb, TMDb, or Kaggle.
 Include information about movie titles, genres, keywords, cast, and crew.
 
