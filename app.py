@@ -23,7 +23,7 @@ with col1:
 similarity = pickle.load(open('similarity.pkl','rb'))
 
 def fetch_poster(movie_id):
-    response = requests.get("https://api.themoviedb.org/3/movie/{}?api_key=ec2bac11f1fbc157f3df0aedb6445b66&language=en-US".format(movie_id))
+    response = requests.get("https://api.themoviedb.org/{}?api_key=ec2bac11f1fbc157f3df0aedb6445b66&language=en-US".format(movie_id))
     data = response.json()
     print(data)
     return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
@@ -38,7 +38,6 @@ def recommend(movie):
     recommended_movies = []
     recommended_poster = []
     for i in movies_list:
-        movie_id = movies.iloc[i[0]].id
         recommended_movies.append(movies.iloc[i[0]].title)
         # fetch poster fromcAPI
         recommended_poster.append(fetch_poster(movie_id))
