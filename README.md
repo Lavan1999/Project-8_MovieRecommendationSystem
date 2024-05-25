@@ -17,14 +17,12 @@ Handle categorical variables and convert them into numerical representations.
 Extract features such as genres, keywords, cast, and crew from the datasets.
 Combine relevant features to create comprehensive tags for each movie.
 Explore additional features that may contribute to recommendation quality.
-- Text Processing:
 
+- Text Processing:
 Apply text processing techniques like stemming, lemmatization, and stop-word removal to normalize text data.
 Implement methods to handle synonyms and similar terms to improve recommendation accuracy.
 
 - Vectorization:
-
-  
 Transform the processed text data into numerical vectors using techniques like CountVectorizer or TF-IDF Vectorizer.
 Choose appropriate vectorization methods based on the size and complexity of the dataset.
 
