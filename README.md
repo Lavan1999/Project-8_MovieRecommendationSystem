@@ -1,5 +1,8 @@
 # Project Title: Movie Recommended System
 LinkedIn Video: 
+
+![Screenshot (299)](https://github.com/Lavan1999/Project-8_MovieRecommendationSystem/assets/152668558/4f26b84a-d880-458d-aada-90d5a9ef43aa)
+
 ## Objective:
 The objective of this project is to develop a recommendation system that suggests movies similar to a user's input movie, based on various features such as genres, keywords, cast, and crew.
 
